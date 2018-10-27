@@ -5,15 +5,15 @@ venue: "Git and GitHub Workshop for ArchivesSpace Kansas City Regional Forum"   
 address: "Midwest Genealogy Center, 3440 South Lee's Summit Road, Independence, MO"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "39.0554751,-94.392474"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+latlng: "39.055578,-94.390370"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "November 30, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-11-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-11-30        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jamene Brooks-Kieffer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Scott Hanrath", "Patrice-Andre Prud'homme"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Tami Albin", "Scott Hanrath", "Patrice-Andre Prud'homme"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["jamenebk@ku.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://docs.google.com/document/d/1fjiX3mA9hW79AY9N3OMJ5DjfKlj5umSk1Xa9lnjYjgk            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -282,17 +282,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in this workshop,
   you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser and a GitHub account.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
